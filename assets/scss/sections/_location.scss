@@ -36,11 +36,14 @@
 
         .ceremony-block {
             margin: 10% 0;
+            p.hour {
+                text-transform: uppercase;
+            }
             h2.date {
                 font-size: 42px;
                 font-weight: 100;
                 letter-spacing: 4px;
-                margin-top: 5%;
+                margin-top: 1%;
             }
             .location-details {
                 @include flex-center;
