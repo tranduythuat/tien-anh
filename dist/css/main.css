@@ -250,15 +250,21 @@ header {
   margin-bottom: 10%;
 }
 .invitation .content .image-box {
+  padding: 10%;
   width: 100%;
   aspect-ratio: 500/812;
   background: linear-gradient(to bottom, #e8e6d9, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/DSCF7803.webp") no-repeat 48% 100%/cover;
 }
 .invitation .content .image-box h2 {
   font-family: "1FTVBlushingRose", sans-serif;
-  font-size: 56px;
+  font-size: 14px;
   font-weight: 100;
-  margin-top: 5%;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1.3;
+}
+.invitation .content .image-box h2 span {
+  font-size: 35px;
 }
 @media (max-width: 500px) {
   .invitation .content .text-box {
@@ -317,7 +323,7 @@ header {
   font-size: 10.6px;
 }
 .location .content .header-section h1.main-title {
-  font-size: 51px;
+  font-size: 35px;
   font-weight: 100;
   margin-top: 8%;
 }
@@ -380,7 +386,7 @@ header {
     font-size: 2.12vw;
   }
   .location .content .header-section h1.main-title {
-    font-size: 10.2vw;
+    font-size: 7vw;
   }
   .location .content .ceremony-block h2.date {
     font-size: 8.4vw;
@@ -550,7 +556,7 @@ header {
 .end {
   width: 100%;
   aspect-ratio: 500/1100;
-  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/DSCF8755%20.webp") no-repeat 48% 100%/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/DSCF8755%20-%20%C4%90%E1%BB%83%20b%C3%A0n%204%20(xo%C3%A1%20ng%C6%B0%E1%BB%9Di%20gi%C3%BAp%20e%20%E1%BA%A1)%20(1).png") no-repeat 48% 100%/cover;
   justify-content: end;
 }
 .end .content {
