@@ -290,7 +290,10 @@ header {
     font-size: 2.2vw;
   }
   .invitation .content .image-box h2 {
-    font-size: 11.2vw;
+    font-size: 2.8vw;
+  }
+  .invitation .content .image-box h2 span {
+    font-size: 7vw;
   }
 }
 

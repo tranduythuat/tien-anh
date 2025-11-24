@@ -119,7 +119,10 @@
 
             .image-box {
                 h2 {
-                    font-size: calc((56 / 500) * 100vw);
+                    font-size: calc((14 / 500) * 100vw);
+                    span {
+                        font-size: calc((35 / 500) * 100vw);
+                    }
                 }
             }
         }
