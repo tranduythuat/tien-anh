@@ -157,7 +157,7 @@ header {
 .hero {
   width: 100%;
   aspect-ratio: 500/824;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(255, 196, 145, 0.259)), url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/DSCF6656.webp") no-repeat 0% 100%/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(255, 196, 145, 0.259)), url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/resized/DSCF6656.webp") no-repeat 0% 100%/cover;
 }
 .hero .content {
   width: 100%;
@@ -253,17 +253,18 @@ header {
   padding: 10%;
   width: 100%;
   aspect-ratio: 500/812;
-  background: linear-gradient(to bottom, #e8e6d9, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/DSCF7803.webp") no-repeat 48% 100%/cover;
+  background: linear-gradient(to bottom, #e8e6d9, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/resized/DSCF7803.webp") no-repeat 48% 100%/cover;
 }
 .invitation .content .image-box h2 {
   font-family: "1FTVBlushingRose", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 100;
-  text-transform: uppercase;
   text-align: left;
   line-height: 1.3;
 }
 .invitation .content .image-box h2 span {
+  text-transform: capitalize;
+  font-style: italic;
   font-size: 35px;
 }
 @media (max-width: 500px) {
@@ -375,7 +376,7 @@ header {
 .location .content .image-block {
   width: 100%;
   aspect-ratio: 500/748;
-  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/LEI00580.webp") no-repeat center/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/resized/LEI00580.webp") no-repeat center/cover;
   margin-top: 15%;
 }
 @media (max-width: 500px) {
@@ -559,7 +560,7 @@ header {
 .end {
   width: 100%;
   aspect-ratio: 500/1100;
-  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/DSCF8755%20-%20%C4%90%E1%BB%83%20b%C3%A0n%204%20(xo%C3%A1%20ng%C6%B0%E1%BB%9Di%20gi%C3%BAp%20e%20%E1%BA%A1)%20(1).png") no-repeat 48% 100%/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/tien-anh/resized/DSCF8755.webp") no-repeat 48% 100%/cover;
   justify-content: end;
 }
 .end .content {
