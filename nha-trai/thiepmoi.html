@@ -144,7 +144,7 @@
           </p> -->
         </div>
 
-        <form action="#" method="POST">
+        <form action="#" method="POST" id="rsvpForm-nhatrai">
           
           <div class="form-group">
             <p class="question fade-right">Bạn sẽ tham dự chứ?</p>
@@ -152,17 +152,17 @@
             
             <div class="attendance-buttons">
               <div class="radio-wrapper fade-up">
-                <input type="radio" id="yes" name="attendance" value="yes" required checked>
+                <input type="radio" id="yes" name="attendance" value="Có" required checked>
                 <label for="yes" class="radio-label yes-button">CÓ</label>
               </div>
               
               <div class="radio-wrapper">
-                <input type="radio" id="no" name="attendance" value="no">
+                <input type="radio" id="no" name="attendance" value="Không">
                 <label for="no" class="radio-label no-button">KHÔNG</label>
               </div>
 
               <div class="radio-wrapper">
-                <input type="radio" id="maybe" name="attendance" value="maybe">
+                <input type="radio" id="maybe" name="attendance" value="Có thể">
                 <label for="maybe" class="radio-label no-button">CÓ THỂ</label>
               </div>
             </div>
@@ -198,12 +198,12 @@
 
             <div class="dietary-buttons attendance-buttons fade-up">
               <div class="radio-wrapper">
-                <input type="radio" id="diet-nonveg" name="dietary" value="non-vegetarian" required checked>
+                <input type="radio" id="diet-nonveg" name="dietary" value="Có" required checked>
                 <label for="diet-nonveg" class="radio-label diet-button nonveg-button">CÓ</label>
               </div>
 
               <div class="radio-wrapper">
-                <input type="radio" id="diet-veg" name="dietary" value="vegetarian">
+                <input type="radio" id="diet-veg" name="dietary" value="Không">
                 <label for="diet-veg" class="radio-label diet-button veg-button">KHÔNG</label>
               </div>
             </div>
@@ -212,7 +212,7 @@
           </div>
 
           <div class="form-group message-group fade-up">
-            <textarea id="message" name="message" class="text-input message-box" placeholder="Lời nhắn nhủ với CDCR :"></textarea>"></textarea>
+            <textarea id="message" name="message" class="text-input message-box" placeholder='Lời nhắn nhủ với CDCR :">'></textarea>
           </div>
 
           <button type="submit" class="submit-btn fade-in">XÁC NHẬN</button>
@@ -226,13 +226,19 @@
       </div>
     </section>
 
-    <button class="player" id="player-btn" aria-label="Play/Pause">
-      <img id="iconSvg" src="../assets/images/cd.png" alt="Music Icon">
-    </button>
+    <div class="music-block">
+      <div class="music-label" id="music-label">
+        <label for="">Bấm vào để  </br> nghe nhạc</label>
+      </div>
+      <div class="player" id="player-btn" aria-label="Play/Pause">
+        <img id="iconSvg" src="../assets/images/cd.png" alt="Music Icon">
+      </div>
+    </div>
     <audio id="audio" preload="auto" src="../assets/audios/Taylor Swift - Lover (First Dance Remix).mp3" loop
       type="audio/mpeg">
     </audio>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="../assets/js/gsap-animations.js"></script>
   <script src="../assets/js/main.js"></script>
 </body>

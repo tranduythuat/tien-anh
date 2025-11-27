@@ -31,32 +31,52 @@ section {
     background-color: $bg-color;
 }
 
-/* music */
-.player {
+.music-block {
+    display: flex;
     position: fixed;
     bottom: 10px;
     right: 1%;
-    max-width: 55px;
-    width: 100%;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    z-index: 9999;
-    border: 1px solid var(--text-title-color);
-}
 
-.player #iconSvg {
-    width: 100%;
-    height: 100%;
-    fill: var(--text-title-color);
+    .player {
+        @include flex-center;
+        max-width: 55px;
+        width: 100%;
+        aspect-ratio: 1;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        z-index: 9999;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    
+    .music-label {
+        @include flex-center;
+        width: 105px;
+        color: white;
+        label {
+            font-family: $blushing-rose-font;
+            font-size: 11px;
+            cursor: pointer;
+            width: 100%;
+            padding: 6% 0 5% 15%;
+            background-color: #706851;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius:25px;
+            transform: translateX(25%);
+            border: 1px solid white;
+        }
+    }
 }
 
 .spin {
     animation: spin 4s linear infinite;
 }
+
 
 /* Định nghĩa hoạt ảnh xoay */
 @keyframes spin {
@@ -73,8 +93,17 @@ section {
         font-size: calc(($font-size-base / 500px) * 100vw);
     }
 
-    .player {
-        max-width: calc((55 / 500) * 100vw);
-
+    .music-block {
+        .player {
+            max-width: calc((55 / 500) * 100vw);
+        }
+    
+        .music-label {
+            width: calc((105 / 500) * 100vw);
+            label {
+                font-size: calc((11 / 500) * 100vw);
+            }
+        }
     }
+
 }
