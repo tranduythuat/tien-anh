@@ -593,7 +593,7 @@ header {
 }
 .qrcode .content img {
   cursor: pointer;
-  width: 16%;
+  width: 20%;
   height: auto;
 }
 .qrcode .content p {
